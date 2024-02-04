@@ -1,0 +1,103 @@
+/*
+  Theme Name: Vportfolio - Personal Portfolio Laravel Script
+  Author: Amcoders
+  Support: mdmaruf782@gmail.com
+  File Description : Main css file of the template
+  Version: 1.0
+  */
+
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. header
+3. Hero
+4. About
+5. Service
+6. portfolio 
+7. Testimonials 
+8. Blog
+9. Subscriber
+10. Contact
+11. Back to top
+12. Footer
+*/
+
+
+
+/* 1. Theme default css */
+ @import url('https://fonts.googleapis.com/css2?family=Almarai&amp;family=Tajawal:wght@400;500;900&amp;display=swap');
+body {
+    direction: rtl;
+	font-family: 'Almarai', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+    background-color: #384E77;
+
+}
+
+.smartphone {
+    position: relative;
+    width: 360px;
+    height: 640px;
+    margin: auto;
+    border: 16px #0D0630 solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+    margin-top: 3em;
+  }
+  .smartphone:before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #384E77;
+    border-radius: 10px;
+  }
+  /* The circle on the bottom of the device */
+  .smartphone:after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    transform: translate(-50%, -50%);
+    background: #384E77;
+    border-radius: 50%;
+  }
+  
+
+
+.hero-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: .1rem;
+}
+
+.hero-social-link a {
+    color: #fff;
+    margin: 0 8px;
+    font-size: 85px;
+    border-radius: 50px;
+
+    
+}
+.hero-social-link a img{
+    height: 70px;
+    width: 70px;
+}
+.hero-social-link a svg{
+    height: 50px;
+    width: 120px;
+}
+
+
+
