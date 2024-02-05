@@ -98,6 +98,12 @@ body {
     height: 50px;
     width: 120px;
 }
+.d1,.d2,.d3{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-top: 3em;
 
+}
 
 
